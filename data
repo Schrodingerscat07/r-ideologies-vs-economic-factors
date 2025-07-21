@@ -1,0 +1,38 @@
+# Google Sheets Data Source
+
+Data used in `ANOVA analysis` was loaded from:
+
+https:"https://docs.google.com/spreadsheets/d/161A2zCCLf_uj_37Yi7sJhryp4VltNft8mWUzeUXX-Xk/edit?usp=sharing"
+Columns:
+- ideology
+- year
+- country
+- gdp_growth
+- gdp_per_capita
+- imports
+- exports
+- fdi
+- life_expectancy
+- tax_revenue
+- military_expenditure
+
+
+
+  
+Data used in '02_xgboost_predict_scenario.R', '03_randomforest_predict_scenario.R' and '04_svr_predict_scenario.R' was loaded from
+
+https:/"docs.google.com/spreadsheets/d/1sP05nDhjT3S-w4zMpnMZEpiJJi6YozI8Qg85wZk26Q0/edit?usp=sharing"
+
+Columns:
+- ideology
+- year
+- country
+- gdp_growth
+- gdp_per_capita
+- imports
+- exports
+- fdi
+- life_expectancy
+- tax_revenue
+- military_expenditure
+
