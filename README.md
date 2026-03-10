@@ -15,6 +15,12 @@ Machine learning models help us determine if and how political ideologies statis
 
 ## 📁 Repository Structure
 
+- `data/`: Directory for local datasets or output files.
+- `scripts/`: R scripts for running statistical and ML models.
+  - `01_anova_analysis.R`: ANOVA tests for economic indicators.
+  - `02_xgboost_predict_scenario.R`: XGBoost predictive modeling.
+  - `03_randomforest_predict_scenario.R`: Random Forest predictive modeling.
+  - `04_svr_predict_scenario.R`: Support Vector Regression models.
 
 ## 🧮 Models Used
 
@@ -34,6 +40,9 @@ We use a Google Sheet as the live data source:
    ```bash
    git clone https://github.com/Schrodingerscat07/r-ideologies-vs-economic-factors.git
    cd r-ideologies-vs-economic-factors/scripts
+   ```
    
-2. Install required R packages:
-install.packages(c("googlesheets4", "tidyverse", "randomForest", "xgboost", "e1071", "car"))
+2. Install required R packages in your R console:
+   ```R
+   install.packages(c("googlesheets4", "tidyverse", "randomForest", "xgboost", "e1071", "car"))
+   ```
