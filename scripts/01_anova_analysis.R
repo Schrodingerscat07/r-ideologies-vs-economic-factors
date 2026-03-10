@@ -1,3 +1,10 @@
+# ==============================================================================
+# Script: 01_anova_analysis.R
+# Purpose: Performs Analysis of Variance (ANOVA) to determine if different 
+#          political ideologies have statistically significant effects on various 
+#          economic indicators such as GDP growth, life expectancy, inflation, etc.
+# ==============================================================================
+
 library(googlesheets4)
 library(xgboost)
 library(dplyr)
